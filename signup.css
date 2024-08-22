@@ -28,7 +28,6 @@ form {
     position: relative;
   }
   input {
-    display: block;
     box-sizing: border-box;
     width: 100%;
     outline: none;
