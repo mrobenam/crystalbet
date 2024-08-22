@@ -325,6 +325,7 @@
 }
 .MarketWidget_market__2BNzk {
  border:1px solid #e4e4e4;
+ font-size: 1rem;
  border-radius:5px;
  -webkit-box-shadow:0 3px 11px rgba(0,0,0,.04);
  box-shadow:0 3px 11px rgba(0,0,0,.04);
@@ -416,17 +417,17 @@
 }
 .MarketWidget_market__2BNzk>li aside ul li dt {
  color:rgba(0,0,0,.5);
- font-size:.75rem
+ font-size:1rem
 }
 .MarketWidget_market__2BNzk>li aside ul li dd {
- font-size:.75rem;
+ font-size:1rem;
  margin:.5rem 0 0;
  padding:3.34px 7.81px 3.1px 5.58px;
  width:-moz-fit-content;
  width:fit-content
 }
 .MarketWidget_market__2BNzk>li aside ul li dd.MarketWidget_volume__oOHww {
- font-size:.85rem;
+ font-size:1rem;
  padding-left:0
 }
 .MarketWidget_market__2BNzk>li aside ul li dd:not(.MarketWidget_volume__oOHww) {
