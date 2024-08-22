@@ -592,7 +592,7 @@
  url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Bold.woff2) format("woff2")
 }
 .SignupHero_hero__3zS6K {
- background-image:url(/web/20210812115138im_/https://polymarket.com/static/media/home-bg.png);
+ background-color: blue;
  background-size:cover;
  color:#fff;
  margin:0 auto;
@@ -601,7 +601,7 @@
 }
 .SignupHero_hero__3zS6K h1 {
  font-size:2.2rem;
- font-weight:500;
+ font-weight:600;
  margin:1rem
 }
 .SignupHero_hero__3zS6K h2 {
