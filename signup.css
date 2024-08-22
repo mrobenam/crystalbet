@@ -14,6 +14,7 @@ form {
   margin: 50px auto 0;
   box-shadow: 0 0 1em #222;
   border-radius: 2px;
+}
   h2 {
     margin:0 0 50px 0;
     padding:10px;
@@ -89,6 +90,6 @@ form {
       background-color: rgba(255,255,255,0.8);
       font-size: 14px;
     }
-	}
+  }
   
-}
+
