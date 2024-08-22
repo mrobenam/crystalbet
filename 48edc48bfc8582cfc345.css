@@ -1,0 +1,662 @@
+.QrCode_qrcode__1BRFJ {
+ text-align:center
+}
+.QrCode_qrcode__1BRFJ canvas {
+ border-radius:.7rem;
+ min-width:200px
+}
+.RefreshButton_buttonLink__2t4aK {
+ background-color:transparent;
+ border:none;
+ color:#1652f0;
+ cursor:pointer;
+ font-family:Heebo,sans-serif;
+ font-size:13.44px;
+ font-style:normal;
+ font-weight:500;
+ line-height:20px;
+ outline:none;
+ padding:0
+}
+.RefreshButton_spin__3xLxy {
+ -webkit-animation:RefreshButton_spin__3xLxy .8s linear infinite;
+ -moz-animation:RefreshButton_spin__3xLxy .8s linear infinite;
+ animation:RefreshButton_spin__3xLxy .8s linear infinite;
+ display:inline-block
+}
+@-moz-keyframes RefreshButton_spin__3xLxy {
+ to {
+  -moz-transform:rotate(1turn)
+ }
+}
+@-webkit-keyframes RefreshButton_spin__3xLxy {
+ to {
+  -webkit-transform:rotate(1turn)
+ }
+}
+@keyframes RefreshButton_spin__3xLxy {
+ to {
+  -webkit-transform:rotate(1turn);
+  -moz-transform:rotate(1turn);
+  transform:rotate(1turn)
+ }
+}
+.RefreshButton_spinner__28bxB {
+ margin-right:6px;
+ position:relative;
+ top:2px;
+ left:3px
+}
+.DepositModal_feeContainer__1CE5S {
+ color:#000;
+ display:-moz-box;
+ display:flex;
+ font-family:Heebo;
+ font-size:1.3em;
+ font-size:16px;
+ font-style:normal;
+ font-weight:400;
+ -moz-box-pack:justify;
+ justify-content:space-between;
+ letter-spacing:-.00160563px;
+ line-height:22px;
+ text-align:right;
+ text-overflow:ellipsis
+}
+.DepositModal_feeContainer__1CE5S>p {
+ margin:0
+}
+.DepositModal_feeLabelContainer__3H9Z6 {
+ display:-moz-box;
+ display:flex
+}
+.DepositModal_feeLabelContainer__3H9Z6 .DepositModal_iconWrapper__1Usn_ {
+ bottom:2px;
+ margin-left:.3em;
+ position:relative
+}
+.DepositModal_feeLabelContainer__3H9Z6 .DepositModal_iconWrapper__1Usn_ .DepositModal_infoIcon__2oJ7q {
+ fill:#959595;
+ top:2px;
+ position:relative
+}
+.DepositModal_feeLabelContainer__3H9Z6 .DepositModal_feeLabel__2jKED {
+ margin:0
+}
+.DepositModal_pLeft__3tBgz {
+ text-align:left
+}
+.DepositModal_refreshContainer__1TTW- {
+ margin-bottom:1em
+}
+.DepositModal_addressContainer__nzK90 {
+ margin:2em 0 1em
+}
+.DepositModal_cautionContainer__1nk-W {
+ display:-moz-box;
+ display:flex;
+ margin:.5em 0 0
+}
+.DepositModal_cautionContainer__1nk-W .DepositModal_infoIcon__2oJ7q {
+ margin-right:4px;
+ position:relative
+}
+.DepositModal_cautionContainer__1nk-W .DepositModal_cautionText__3r00V {
+ color:#959595;
+ font-size:.8em;
+ margin:0 0 0 .3em
+}
+.IncomingFundsFloatingIndicator_card__2JJ0Z {
+ background:#1652f0 url(/web/20210812115138im_/https://polymarket.com/static/media/home-bg.png);
+ bottom:1.5rem;
+ color:#fff;
+ min-width:220px;
+ padding:1rem;
+ position:fixed;
+ right:6rem;
+ z-index:3
+}
+.IncomingFundsFloatingIndicator_card__2JJ0Z p {
+ margin:0 0 .5rem
+}
+.IncomingFundsFloatingIndicator_card__2JJ0Z .IncomingFundsFloatingIndicator_deposit__1v56e {
+ opacity:.5
+}
+.IncomingFundsFloatingIndicator_card__2JJ0Z .IncomingFundsFloatingIndicator_button__ro2QD {
+ background:#000;
+ border:0;
+ color:#fff;
+ cursor:pointer;
+ font-weight:500;
+ margin-top:1.5rem;
+ padding:.75rem;
+ width:100%
+}
+.IncomingFundsFloatingIndicator_closeButton__T4Tad {
+ background-color:#1652f0;
+ border:0 solid transparent;
+ border-radius:5px;
+ color:#fff;
+ cursor:pointer;
+ display:inline-block;
+ font-weight:700;
+ margin-top:1.5rem;
+ padding:.8rem 0;
+ width:100%;
+ background:#000
+}
+.IncomingFundsFloatingIndicator_closeButton__T4Tad:disabled {
+ background-color:#aaa;
+ cursor:not-allowed
+}
+.IncomingFundsFloatingIndicator_confirmButton__3jevv {
+ background-color:#1652f0;
+ border:0 solid transparent;
+ border-radius:5px;
+ color:#fff;
+ cursor:pointer;
+ display:inline-block;
+ font-weight:700;
+ margin-top:1.5rem;
+ padding:.8rem 0;
+ width:100%
+}
+.IncomingFundsFloatingIndicator_confirmButton__3jevv:disabled {
+ background-color:#aaa;
+ cursor:not-allowed
+}
+.IncomingFundsFloatingIndicator_modal__3gs0A {
+ text-align:center
+}
+.IncomingFundsFloatingIndicator_pGreyBg__2GyGf {
+ background:rgba(0,0,0,.04);
+ border-radius:4px;
+ margin:10px 0 0;
+ padding:.5em
+}
+.IncomingFundsFloatingIndicator_pGrey__22hJl {
+ color:#959595
+}
+.PendingDepositInfo_container__1qLi_ {
+ display:-moz-box;
+ display:flex;
+ -moz-box-align:center;
+ align-items:center
+}
+@media screen and (max-width:1017px) {
+ .PendingDepositInfo_container__1qLi_ {
+  -moz-box-align:start;
+  align-items:flex-start
+ }
+}
+.PendingDepositInfo_container__1qLi_ .PendingDepositInfo_icon___I43t {
+ margin-right:.5em;
+ position:relative
+}
+@media screen and (max-width:1017px) {
+ .PendingDepositInfo_container__1qLi_ .PendingDepositInfo_icon___I43t {
+  margin-top:4px
+ }
+}
+.PendingDepositInfo_container__1qLi_ p {
+ margin:0
+}
+.BalanceWidget_widget__1vE-S {
+ background:url(/web/20210812115138im_/https://polymarket.com/_next/static/media/home-bg.d16e8f88245fb73cae83c2502fc4f7d2.png);
+ border-radius:5px;
+ color:#fff;
+ display:-moz-box;
+ display:flex;
+ justify-content:space-around;
+ padding:0;
+ margin-top:1rem
+}
+.BalanceWidget_widget__1vE-S>section {
+ padding-left:2.5rem;
+ padding-right:2.5rem;
+ margin-top:2.5rem;
+ margin-bottom:2.5rem
+}
+.BalanceWidget_widget__1vE-S>section:not(:first-of-type) {
+ border-left:1px solid hsla(0,0%,100%,.2)
+}
+.BalanceWidget_widget__1vE-S>section dt {
+ color:hsla(0,0%,90.2%,.7);
+ font-size:.9rem;
+ font-weight:400;
+ margin-bottom:.8rem
+}
+.BalanceWidget_widget__1vE-S>section dd {
+ font-size:1.75rem;
+ margin:0
+}
+@media screen and (min-width:1018px) {
+ .BalanceWidget_widget__1vE-S>section {
+  width:33.3%
+ }
+ .BalanceWidget_widget__1vE-S hr {
+  border:none;
+  border-right:1px solid hsla(0,0%,78.4%,.3);
+  display:none;
+  height:100%
+ }
+}
+@media screen and (max-width:1017px) {
+ .BalanceWidget_widget__1vE-S {
+  -moz-box-orient:vertical;
+  -moz-box-direction:normal;
+  flex-direction:column
+ }
+ .BalanceWidget_widget__1vE-S>section {
+  padding:1rem;
+  margin:0
+ }
+ .BalanceWidget_widget__1vE-S hr {
+  border:none;
+  border-bottom:1px solid hsla(0,0%,78.4%,.3);
+  margin:0;
+  width:100%
+ }
+}
+.BalanceWidget_pendinDepositContainer__1JD-h {
+ margin-top:20px;
+ font-size:14px
+}
+.BalanceWidget_balanceValues__3_Acb {
+ font-family:Heebo,sans-serif
+}
+.MarketSelect_select__1ZC7Z {
+ display:-moz-box;
+ display:flex;
+ -moz-box-orient:vertical;
+ -moz-box-direction:normal;
+ flex-direction:column;
+ margin-bottom:1rem;
+ margin-right:3rem;
+ text-transform:capitalize;
+ min-width:190px
+}
+.MarketSelect_select__1ZC7Z label {
+ font-size:.75rem;
+ font-weight:700;
+ margin-bottom:.5rem;
+ text-transform:uppercase
+}
+.MarketSelect_select__1ZC7Z .MarketSelect_option__lf_E2 {
+ color:#adadad;
+ cursor:pointer;
+ font-size:1rem;
+ line-height:44px;
+ padding:0 18px
+}
+.MarketSelect_select__1ZC7Z .MarketSelect_option__lf_E2:hover {
+ background-color:rgba(0,0,0,.02)
+}
+.MarketSelect_select__1ZC7Z .MarketSelect_option__lf_E2.MarketSelect_active__36K-g {
+ color:#1652f0
+}
+.MarketSelect_select__1ZC7Z .MarketSelect_dropdownSection__3Ej91 {
+ border-bottom:1px solid rgba(0,0,0,.1)
+}
+.MarketSelect_select__1ZC7Z .MarketSelect_dropdownSection__3Ej91 .MarketSelect_value__wZU8P {
+ color:#000;
+ display:-moz-box;
+ display:flex;
+ font-size:.85rem;
+ padding:8px 0
+}
+.MarketSelect_select__1ZC7Z .MarketSelect_dropdownSection__3Ej91 .MarketSelect_iconContainer__krUUo {
+ -moz-box-flex:1;
+ flex:1 1;
+ text-align:right
+}
+.MarketSelect_select__1ZC7Z .MarketSelect_dropdownSection__3Ej91 .MarketSelect_filterWrapper__3DqNQ {
+ margin:0 12px 0 8px
+}
+.MarketSelect_select__1ZC7Z .MarketSelect_icon__b9Gu5 {
+ vertical-align:middle
+}
+.MarketImage_image__1T5fj {
+ border-radius:3rem;
+ height:40px;
+ margin-right:1rem;
+ object-fit:cover;
+ width:40px
+}
+.MarketWidget_market__2BNzk {
+ border:1px solid #e4e4e4;
+ border-radius:5px;
+ -webkit-box-shadow:0 3px 11px rgba(0,0,0,.04);
+ box-shadow:0 3px 11px rgba(0,0,0,.04);
+ color:inherit;
+ display:-moz-box;
+ display:flex;
+ -moz-box-orient:vertical;
+ -moz-box-direction:normal;
+ flex-direction:column;
+ -moz-box-pack:justify;
+ justify-content:space-between;
+ list-style-type:none;
+ padding:1rem;
+ width:316px
+}
+.MarketWidget_market__2BNzk.MarketWidget_featured__7NUg7 {
+ border:2px solid #42c772;
+ position:relative
+}
+.MarketWidget_market__2BNzk .MarketWidget_featuredBadge__1yR-t {
+ display:none
+}
+.MarketWidget_market__2BNzk:first-of-type .MarketWidget_featuredBadge__1yR-t {
+ background-color:#42c772;
+ border-radius:.1875rem .1875rem 0 0;
+ color:#fff;
+ display:block;
+ font-size:.75rem;
+ left:-2px;
+ line-height:1.125;
+ padding:.1875rem .5625rem;
+ position:absolute;
+ top:-19px
+}
+.MarketWidget_market__2BNzk>li {
+ display:-moz-box;
+ display:flex;
+ -moz-box-orient:vertical;
+ -moz-box-direction:normal;
+ flex-direction:column;
+ height:100%;
+ -moz-box-pack:justify;
+ justify-content:space-between
+}
+.MarketWidget_market__2BNzk>li header {
+ display:-moz-box;
+ display:flex;
+ font-size:.85rem;
+ margin-bottom:2rem
+}
+.MarketWidget_market__2BNzk>li header .MarketWidget_labelClosed__3zPtb,
+.MarketWidget_market__2BNzk>li header .MarketWidget_labelNew__RFUP5,
+.MarketWidget_market__2BNzk>li header .MarketWidget_labelScalar__3Ip6O {
+ border-radius:.125rem;
+ font-size:.85rem;
+ height:-moz-fit-content;
+ height:fit-content;
+ margin-left:.5rem;
+ padding:.3rem 1rem
+}
+.MarketWidget_market__2BNzk>li header .MarketWidget_labelClosed__3zPtb {
+ background-color:#fef2f3;
+ color:#f3313d
+}
+.MarketWidget_market__2BNzk>li header .MarketWidget_labelNew__RFUP5 {
+ background-color:#dff6e7;
+ color:#42c772
+}
+.MarketWidget_market__2BNzk>li header .MarketWidget_labelScalar__3Ip6O {
+ background-color:#d6e0fc;
+ color:#1652f0
+}
+.MarketWidget_market__2BNzk>li aside {
+ font-size:.9rem
+}
+.MarketWidget_market__2BNzk>li aside,
+.MarketWidget_market__2BNzk>li aside ul {
+ display:-moz-box;
+ display:flex;
+ -moz-box-pack:justify;
+ justify-content:space-between
+}
+.MarketWidget_market__2BNzk>li aside ul {
+ list-style-type:none;
+ padding:0
+}
+.MarketWidget_market__2BNzk>li aside ul li {
+ margin-right:2rem
+}
+.MarketWidget_market__2BNzk>li aside ul li dt {
+ color:rgba(0,0,0,.5);
+ font-size:.75rem
+}
+.MarketWidget_market__2BNzk>li aside ul li dd {
+ font-size:.75rem;
+ margin:.5rem 0 0;
+ padding:3.34px 7.81px 3.1px 5.58px;
+ width:-moz-fit-content;
+ width:fit-content
+}
+.MarketWidget_market__2BNzk>li aside ul li dd.MarketWidget_volume__oOHww {
+ font-size:.85rem;
+ padding-left:0
+}
+.MarketWidget_market__2BNzk>li aside ul li dd:not(.MarketWidget_volume__oOHww) {
+ background-color:#f2f2f2;
+ color:#1652f0
+}
+.MarketWidget_market__2BNzk>li aside .MarketWidget_category__2IMeN {
+ align-self:flex-end;
+ padding:.3rem;
+ position:relative;
+ white-space:nowrap
+}
+.MarketWidget_market__2BNzk>li aside .MarketWidget_category__2IMeN .MarketWidget_overlay__2cqKW {
+ bottom:0;
+ left:0;
+ opacity:.2;
+ position:absolute;
+ right:0;
+ top:0
+}
+@media only screen and (max-width:1017px) {
+ .MarketWidget_market__2BNzk {
+  width:100%
+ }
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- {
+ display:-moz-box;
+ display:flex;
+ margin-top:1rem
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- strong {
+ font-size:.8rem;
+ margin-bottom:.5rem;
+ text-transform:uppercase
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- .PopularMarkets_checkbox__1VdmI {
+ display:-moz-box;
+ display:flex;
+ margin-top:-.75rem
+}
+@media screen and (max-width:1017px) {
+ .PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- .PopularMarkets_checkbox__1VdmI {
+  margin-top:.5rem
+ }
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- .PopularMarkets_checkbox__1VdmI small {
+ align-self:center;
+ color:#000;
+ font-size:1rem;
+ font-weight:400;
+ margin-left:.5rem;
+ text-transform:none
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- .PopularMarkets_checkbox__1VdmI input[type=checkbox] {
+ align-self:center;
+ -webkit-appearance:none;
+ -moz-appearance:none;
+ appearance:none;
+ background:#fff;
+ border:1px solid rgba(0,0,0,.4);
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ box-sizing:border-box;
+ height:1.5rem;
+ position:relative;
+ width:1.5rem;
+ margin-right:0;
+ border-radius:5px
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- .PopularMarkets_checkbox__1VdmI input[type=checkbox]:hover {
+ background-color:rgba(0,0,0,.1)
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- .PopularMarkets_checkbox__1VdmI input[type=checkbox]:checked {
+ background:#1652f0;
+ border:1px solid #1652f0
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- .PopularMarkets_checkbox__1VdmI input[type=checkbox]:checked:after {
+ background:url(/web/20210812115138im_/https://polymarket.com/static/images/icons/check-white.svg) .375rem .375rem no-repeat;
+ background-size:.75rem .75rem;
+ content:"";
+ display:block;
+ font-size:1.2rem;
+ height:1.5rem;
+ left:-1px;
+ line-height:1.5rem;
+ position:absolute;
+ text-align:center;
+ top:-1px;
+ width:1.5rem
+}
+.PopularMarkets_markets__1lQaI .PopularMarkets_list__2mi8T {
+ -webkit-column-gap:25px;
+ -moz-column-gap:25px;
+ column-gap:25px;
+ display:grid;
+ grid-column-gap:25px;
+ grid-template-columns:repeat(3,1fr);
+ margin-top:1.5625rem;
+ padding:0;
+ grid-row-gap:19px;
+ row-gap:19px
+}
+@media only screen and (max-width:1017px) {
+ .PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh- {
+  -moz-box-orient:vertical;
+  -moz-box-direction:normal;
+  flex-direction:column
+ }
+ .PopularMarkets_markets__1lQaI .PopularMarkets_filters__1Rnh->* {
+  width:100%
+ }
+ .PopularMarkets_markets__1lQaI .PopularMarkets_list__2mi8T {
+  grid-template-columns:repeat(1,1fr)
+ }
+}
+.SignupForm_form__HloFv {
+ margin:1.5rem 0
+}
+.SignupForm_form__HloFv button {
+ background-color:#000;
+ border:none;
+ border-radius:1px;
+ color:#fff;
+ padding:.8rem 3.25rem
+}
+.SignupForm_form__HloFv input {
+ border:0;
+ border-radius:3px;
+ margin-right:1rem;
+ padding:.8rem 1rem;
+ width:23rem
+}
+@font-face {
+ font-family:Heebo;
+ font-style:normal;
+ font-weight:200;
+ src:url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Light.ttf) format("truetype"),
+ url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Light.woff) format("woff"),
+ url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Light.woff2) format("woff2")
+}
+@font-face {
+ font-family:Heebo;
+ font-style:normal;
+ font-weight:400;
+ src:url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Regular.ttf) format("truetype"),
+ url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Regular.woff) format("woff"),
+ url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Regular.woff2) format("woff2")
+}
+@font-face {
+ font-family:Heebo;
+ font-style:normal;
+ font-weight:500;
+ src:url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Medium.ttf) format("truetype"),
+ url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Medium.woff) format("woff"),
+ url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Medium.woff2) format("woff2")
+}
+@font-face {
+ font-family:Heebo;
+ font-style:normal;
+ font-weight:700;
+ src:url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Bold.ttf) format("truetype"),
+ url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Bold.woff) format("woff"),
+ url(/web/20210812115138im_/https://polymarket.com/static/fonts/Heebo-Bold.woff2) format("woff2")
+}
+.SignupHero_hero__3zS6K {
+ background-image:url(/web/20210812115138im_/https://polymarket.com/static/media/home-bg.png);
+ background-size:cover;
+ color:#fff;
+ margin:0 auto;
+ padding:4rem 0 2rem;
+ text-align:center
+}
+.SignupHero_hero__3zS6K h1 {
+ font-size:2.2rem;
+ font-weight:500;
+ margin:1rem
+}
+.SignupHero_hero__3zS6K h2 {
+ font-size:16px;
+ font-weight:400;
+ line-height:1.5rem;
+ margin:0 auto;
+ max-width:629px;
+ opacity:.7
+}
+.SignupHero_hero__3zS6K .SignupHero_disclaimer__1G4Vj {
+ background-color:skyblue;
+ border:1px solid hsla(0,0%,100%,.2);
+ border-radius:1.5rem;
+ font-size:.85rem;
+ margin:0 auto;
+ max-width:648px;
+ padding:.8rem 2.5rem;
+ text-align:left
+}
+.SignupHero_hero__3zS6K .SignupHero_signup__16iDm {
+ margin:1rem
+}
+@media screen and (max-width:1017px) {
+ .SignupHero_hero__3zS6K {
+  padding:1rem 1rem 5rem
+ }
+ .SignupHero_hero__3zS6K form {
+  display:-moz-box;
+  display:flex;
+  -moz-box-orient:vertical;
+  -moz-box-direction:normal;
+  flex-direction:column
+ }
+ .SignupHero_hero__3zS6K form input {
+  margin-bottom:1rem;
+  width:100%
+ }
+}
+/*
+     FILE ARCHIVED ON 11:51:38 Aug 12, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:31:42 Aug 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.472
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 16.552
+  LoadShardBlock: 50.419 (3)
+  PetaboxLoader3.datanode: 84.269 (4)
+  load_resource: 37.624
+*/
