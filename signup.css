@@ -68,11 +68,8 @@ form {
     text-shadow: 0 1px #68B25B;
   }
   input[type="submit"]:hover {
-    background: rgba(148,175,101,1);
+    background: blue;
     text-shadow:0 1px 3px darken($button, 30%);
-  }
-  input[type="submit"]:hover {
-    
   }
   label{
     position: absolute;
