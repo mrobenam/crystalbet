@@ -1,41 +1,544 @@
 <html><head>
-	<title>CrystalBet - The Global Information Markets Platform</title>
-	<link rel="stylesheet" type="text/css" href="signup.css">
-	<link rel="stylesheet" type="text/css" href="banner-styles.css">
+
+<link rel="stylesheet" type="text/css" href="banner-styles.css">
 <link rel="stylesheet" type="text/css" href="iconochive.css">
 <link rel="stylesheet" href="a1254ac680494e1a4a5a.css" data-n-g="">
 <link rel="preload" href="550173123d055e82d546.css" as="style">
 <link rel="stylesheet" href="550173123d055e82d546.css" data-n-p="">
 <link rel="preload" href="48edc48bfc8582cfc345.css" as="style">
 <link rel="stylesheet" href="48edc48bfc8582cfc345.css" data-n-p="">
-	<script src="signup.js"></script>
-</head>
 
-<body style="font-family: Heebo,sans-serif !important;background-color: black;"><form action="#" method="post" style="/*! border-radius: 20px; */">
+<title>CrystalBet - The Global Information Markets Platform</title><meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width"><meta name="theme-color" content="#000000"><meta name="description" content="Bet on your beliefs"><meta property="og:type" content="website"><meta property="og:title" content="CrystalBet - The Global Information Markets Platform"><meta property="og:description" content="Bet on your beliefs"><meta property="og:image" content="https://web.archive.org/web/20210811204211im_/https://polymarket-static.s3.us-east-2.amazonaws.com/polymarket-twitter-card.png"><meta name="twitter:image:src" content="https://polymarket-static.s3.us-east-2.amazonaws.com/polymarket-twitter-card.png"><meta name="twitter:image" content="https://web.archive.org/web/20210811204211im_/https://polymarket-static.s3.us-east-2.amazonaws.com/polymarket-twitter-card.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@CrystalBetHQ"><style id="jss-server-side">.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    color-adjust: exact;
+  }
+}
+  .MuiAvatar-root {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: Heebo, sans-serif;
+    line-height: 1;
+    user-select: none;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  .MuiAvatar-colorDefault {
+    color: #fafafa;
+    background-color: #bdbdbd;
+  }
+  .MuiAvatar-rounded {
+    border-radius: 4px;
+  }
+  .MuiAvatar-square {
+    border-radius: 0;
+  }
+  .MuiAvatar-img {
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+    text-indent: 10000px;
+  }
+  .MuiAvatar-fallback {
+    width: 75%;
+    height: 75%;
+  }
+  .MuiButton-root {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: Heebo, sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    text-transform: none;
+  }
+  .MuiButton-root:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  .MuiButton-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+  }
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-root:hover.Mui-disabled {
+    background-color: transparent;
+  }
+  .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+  }
+  .MuiButton-text {
+    padding: 6px 8px;
+  }
+  .MuiButton-text:hover {
+    background-color: transparent;
+  }
+  .MuiButton-textPrimary {
+    color: #1652f0;
+  }
+  .MuiButton-textPrimary:hover {
+    background-color: rgba(22, 82, 240, 0.04);
+  }
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-textSecondary {
+    color: #42c772;
+  }
+  .MuiButton-textSecondary:hover {
+    background-color: rgba(66, 199, 114, 0.04);
+  }
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-outlined {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 5px 15px;
+  }
+  .MuiButton-outlined.Mui-disabled {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .MuiButton-outlinedPrimary {
+    color: #1652f0;
+    border: 1px solid rgba(22, 82, 240, 0.5);
+  }
+  .MuiButton-outlinedPrimary:hover {
+    border: 1px solid #1652f0;
+    background-color: rgba(22, 82, 240, 0.04);
+  }
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-outlinedSecondary {
+    color: #42c772;
+    border: 1px solid rgba(66, 199, 114, 0.5);
+  }
+  .MuiButton-outlinedSecondary:hover {
+    border: 1px solid #42c772;
+    background-color: rgba(66, 199, 114, 0.04);
+  }
+  .MuiButton-outlinedSecondary.Mui-disabled {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+  }
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+  .MuiButton-contained:hover {
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+    background-color: #d5d5d5;
+  }
+  .MuiButton-contained.Mui-focusVisible {
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+  }
+  .MuiButton-contained:active {
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+  }
+  .MuiButton-contained.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+  .MuiButton-contained:hover.Mui-disabled {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  .MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #1652f0;
+  }
+  .MuiButton-containedPrimary:hover {
+    background-color: rgb(15, 57, 168);
+  }
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #1652f0;
+  }
+}
+  .MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #42c772;
+  }
+  .MuiButton-containedSecondary:hover {
+    background-color: rgb(46, 139, 79);
+  }
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #42c772;
+  }
+}
+  .MuiButton-disableElevation {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation:hover {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation.Mui-focusVisible {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation:active {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation.Mui-disabled {
+    box-shadow: none;
+  }
+  .MuiButton-colorInherit {
+    color: inherit;
+    border-color: currentColor;
+  }
+  .MuiButton-textSizeSmall {
+    padding: 4px 5px;
+    font-size: 0.8125rem;
+  }
+  .MuiButton-textSizeLarge {
+    padding: 8px 11px;
+    font-size: 0.9375rem;
+  }
+  .MuiButton-outlinedSizeSmall {
+    padding: 3px 9px;
+    font-size: 0.8125rem;
+  }
+  .MuiButton-outlinedSizeLarge {
+    padding: 7px 21px;
+    font-size: 0.9375rem;
+  }
+  .MuiButton-containedSizeSmall {
+    padding: 4px 10px;
+    font-size: 0.8125rem;
+  }
+  .MuiButton-containedSizeLarge {
+    padding: 8px 22px;
+    font-size: 0.9375rem;
+  }
+  .MuiButton-fullWidth {
+    width: 100%;
+  }
+  .MuiButton-startIcon {
+    display: inherit;
+    margin-left: -4px;
+    margin-right: 8px;
+  }
+  .MuiButton-startIcon.MuiButton-iconSizeSmall {
+    margin-left: -2px;
+  }
+  .MuiButton-endIcon {
+    display: inherit;
+    margin-left: 8px;
+    margin-right: -4px;
+  }
+  .MuiButton-endIcon.MuiButton-iconSizeSmall {
+    margin-right: -2px;
+  }
+  .MuiButton-iconSizeSmall > *:first-child {
+    font-size: 18px;
+  }
+  .MuiButton-iconSizeMedium > *:first-child {
+    font-size: 20px;
+  }
+  .MuiButton-iconSizeLarge > *:first-child {
+    font-size: 22px;
+  }
+@keyframes mui-auto-fill {}
+@keyframes mui-auto-fill-cancel {}
+  .MuiInputBase-root {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: Heebo, sans-serif;
+    font-weight: 400;
+    line-height: 1.1876em;
+  }
+  .MuiInputBase-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.38);
+    cursor: default;
+  }
+  .MuiInputBase-multiline {
+    padding: 6px 0 7px;
+  }
+  .MuiInputBase-multiline.MuiInputBase-marginDense {
+    padding-top: 3px;
+  }
+  .MuiInputBase-fullWidth {
+    width: 100%;
+  }
+  .MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .MuiInputBase-input::-webkit-input-placeholder {
+    color: currentColor;
+    opacity: 0.42;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiInputBase-input::-moz-placeholder {
+    color: currentColor;
+    opacity: 0.42;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiInputBase-input:-ms-input-placeholder {
+    color: currentColor;
+    opacity: 0.42;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiInputBase-input::-ms-input-placeholder {
+    color: currentColor;
+    opacity: 0.42;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiInputBase-input:focus {
+    outline: 0;
+  }
+  .MuiInputBase-input:invalid {
+    box-shadow: none;
+  }
+  .MuiInputBase-input::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  .MuiInputBase-input.Mui-disabled {
+    opacity: 1;
+  }
+  .MuiInputBase-input:-webkit-autofill {
+    animation-name: mui-auto-fill;
+    animation-duration: 5000s;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input::-webkit-input-placeholder {
+    opacity: 0 !important;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input::-moz-placeholder {
+    opacity: 0 !important;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:-ms-input-placeholder {
+    opacity: 0 !important;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input::-ms-input-placeholder {
+    opacity: 0 !important;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::-webkit-input-placeholder {
+    opacity: 0.42;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::-moz-placeholder {
+    opacity: 0.42;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus:-ms-input-placeholder {
+    opacity: 0.42;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::-ms-input-placeholder {
+    opacity: 0.42;
+  }
+  .MuiInputBase-inputMarginDense {
+    padding-top: 3px;
+  }
+  .MuiInputBase-inputMultiline {
+    height: auto;
+    resize: none;
+    padding: 0;
+  }
+  .MuiInputBase-inputTypeSearch {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+  }
+  .MuiInput-root {
+    position: relative;
+  }
+  label + .MuiInput-formControl {
+    margin-top: 16px;
+  }
+  .MuiInput-colorSecondary.MuiInput-underline:after {
+    border-bottom-color: #42c772;
+  }
+  .MuiInput-underline:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid #1652f0;
+    pointer-events: none;
+  }
+  .MuiInput-underline.Mui-focused:after {
+    transform: scaleX(1);
+  }
+  .MuiInput-underline.Mui-error:after {
+    transform: scaleX(1);
+    border-bottom-color: #f44336;
+  }
+  .MuiInput-underline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    pointer-events: none;
+  }
+  .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+  }
+  .MuiInput-underline.Mui-disabled:before {
+    border-bottom-style: dotted;
+  }
+@media (hover: none) {
+  .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  }
+}
+  .MuiSkeleton-root {
+    height: 1.2em;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.11);
+  }
+  .MuiSkeleton-text {
+    height: auto;
+    transform: scale(1, 0.60);
+    margin-top: 0;
+    border-radius: 4px;
+    margin-bottom: 0;
+    transform-origin: 0 60%;
+  }
+  .MuiSkeleton-text:empty:before {
+    content: "\00a0";
+  }
+  .MuiSkeleton-circle {
+    border-radius: 50%;
+  }
+  .MuiSkeleton-pulse {
+    animation: MuiSkeleton-keyframes-pulse 1.5s ease-in-out 0.5s infinite;
+  }
+@keyframes MuiSkeleton-keyframes-pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+  .MuiSkeleton-wave {
+    overflow: hidden;
+    position: relative;
+  }
+  .MuiSkeleton-wave::after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    animation: MuiSkeleton-keyframes-wave 1.6s linear 0.5s infinite;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.04), transparent);
+  }
+@keyframes MuiSkeleton-keyframes-wave {
+  0% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+  .MuiSkeleton-withChildren > * {
+    visibility: visible;
+  }
+  .MuiSkeleton-fitContent {
+    max-width: fit-content;
+  }
+  .MuiSkeleton-heightAuto {
+    height: auto;
+  }</style></head><body>
 
-  <h2 style="color: white;background-color: blue;font-size: 40;border-radius: 15px;">Sign Up</h2>
-		<p>
-			<label for="Email" class="floatLabel">Email</label>
-			<input id="Email" name="Email" type="text" style="font-size: 20;color: black;">
-		</p>
-		<p>
-			<label for="password" class="floatLabel">Password</label>
-			<input id="password" name="password" type="password" style="font-size: 20;color: black;">
+<div id="__next"><main class="Layout_layout__1he8Q" style="background-color: black;"><div class="Header_header__3V_Bw"><div class="Header_content__1M_qK"><img class="Header_logo__1haEc" src="logoo.png" style="border-radius: 10px;"><div class="Header_links__3g4zj"><a class="Header_selected__32hfF" href="/web/20210811204211/https://polymarket.com/">Markets</a></div><div class="UserArea_area__2odJI" style="color: black;"><div style="height:8px"></div><a href="signup.html" class="MuiButtonBase-root MuiButton-root MuiButton-contained PrimaryButton__StyledButton-dfalgg-0 iQTXpo DWStepperStyledComponents__StyledPrimaryButton-knxoba-13 AnalyticsButton__StyledAnalyticsButton-cawewe-0 hnKJIQ lgcvXS LoginButton__StyledTransparentButton-uni5pa-0 eeockz LoginButton_button__6kq8X MuiButton-disableElevation" tabindex="0" type="button" style="color: black;"><span class="MuiButton-label" style="color: black;">Log in</span></a><a href="signup.html" class="MuiButtonBase-root MuiButton-root MuiButton-contained PrimaryButton__StyledButton-dfalgg-0 iQTXpo DWStepperStyledComponents__StyledPrimaryButton-knxoba-13 AnalyticsButton__StyledAnalyticsButton-cawewe-0 hnKJIQ lgcvXS SignupButton__StyledGreenButton-sc-1jxso1x-0 hZAxrW SignupButton_button__DIjR3 MuiButton-disableElevation" tabindex="0" type="button" style="background-color: #39e339;"><span class="MuiButton-label" style="color: black;">Sign up</span></a><div class="HamburgerMenu_container__Gc2iU"><div class="hamburger-react" role="button" style="cursor:pointer;height:48px;position:relative;transition:0.4s cubic-bezier(0, 0, 0, 1);user-select:none;width:48px;outline:none;transform:none" tabindex="0"><div style="transition:0.2s cubic-bezier(0, 0, 0, 1) 0.2s;transform:none"><div style="background:currentColor;height:2px;left:14px;position:absolute;width:20px;top:17px;transition:0.2s cubic-bezier(0, 0, 0, 1) 0s;transform:none"></div></div><div style="transition:0.2s cubic-bezier(0, 0, 0, 1);opacity:1"><div style="background:currentColor;height:2px;left:14px;position:absolute;width:20px;top:23px;transition:0.2s cubic-bezier(0, 0, 0, 1)"></div></div><div style="transition:0.2s cubic-bezier(0, 0, 0, 1) 0.2s;transform:none"><div style="background:currentColor;height:2px;left:14px;position:absolute;width:20px;top:29px;transition:0.2s cubic-bezier(0, 0, 0, 1) 0s;transform:none"></div></div></div></div></div></div></div><main class="Layout_main__2u3oU"><div class="SignupHero_hero__3zS6K" style="width: 999;border-radius: 20px;"><h1 style="font-size: 55;">Bet on your Beliefs</h1><h2 style="font-size: 20;">CrystalBet is an Information Markets platform. Harnessing the power of free markets to demystify the real world events that matter most to you.</h2><form class="SignupForm_form__HloFv"><input type="email" placeholder="Your email" value="" style="color: black;border-radius: 15px;"><button href="signup.html" type="submit" style="border-radius: 15px;">Sign up</button></form><div class="SignupHero_disclaimer__1G4Vj">The markets listed here are for informational purposes, we take no profits from them.</div></div><div class="PopularMarkets_markets__1lQaI"><div class="MuiInputBase-root MuiInput-root PopularMarkets__StyledInput-sc-1kq6k6c-0 emUGfe MuiInputBase-adornedStart MuiInputBase-adornedEnd">
 
-		</p>
-		<p>
-			<label for="confirm_password" class="floatLabel">Confirm Password</label>
-			<input id="confirm_password" name="confirm_password" type="password" style="font-size: 20;color: black;">
-
-		</p>
-		<p>
-			<input type="submit" value="Create My Account" id="submit" style="border-radius: 15px;">
-		</p>
-
-</form>
+<div class="PopularMarkets__EndAdornmentContainer-sc-1kq6k6c-6 fYMgAF"></div></div><h5>Popular Markets</h5><ul class="PopularMarkets_list__2mi8T"><a class="MarketWidget_market__2BNzk MarketWidget_featured__7NUg7"><span class="MarketWidget_featuredBadge__1yR-t">Featured</span><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Cardano support smart contracts on Mainnet by October 1st, 2021?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->555,265</dd></li><li><dt>Yes</dt><dd><span title="0.8231483747968215067883085738784074">$<!-- -->0.82</span></dd></li><li><dt>No</dt><dd><span title="0.1768516252031784932116914261215926">$<!-- -->0.18</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk MarketWidget_featured__7NUg7" <span=""><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png"></div></span>Will the US have more than 200,000 new daily COVID-19 cases on or before October 1, 2021? <span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->220,537</dd></li><li><dt>Yes</dt><dd><span title="0.6039078983986593662784641258104152">$<!-- -->0.60</span></dd></li><li><dt>No</dt><dd><span title="0.3960921016013406337215358741895848">$<!-- -->0.40</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk MarketWidget_featured__7NUg7"><span class="MarketWidget_featuredBadge__1yR-t">Featured</span><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will the United States report a record high 7-day COVID-19 case average before January 1, 2022?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->88,702</dd></li><li><dt>Yes</dt><dd><span title="0.1784990099384049107764727885124096">$<!-- -->0.18</span></dd></li><li><dt>No</dt><dd><span title="0.8215009900615950892235272114875904">$<!-- -->0.82</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk MarketWidget_featured__7NUg7"><span class="MarketWidget_featuredBadge__1yR-t">Featured</span><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Andrew Cuomo be Governor of New York on January 1, 2022?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->45,008</dd></li><li><dt>Yes</dt><dd><span title="0.008406503362523966616029783228511782">$<!-- -->0.01</span></dd></li><li><dt>No</dt><dd><span title="0.9915934966374760333839702167714882">$<!-- -->0.99</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk MarketWidget_featured__7NUg7"><span class="MarketWidget_featuredBadge__1yR-t">Featured</span><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will more than 2.3 million people travel through a TSA checkpoint on any day on or before September 15?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->29,941</dd></li><li><dt>Yes</dt><dd><span title="0.1533514007886301076462395170851599">$<!-- -->0.15</span></dd></li><li><dt>No</dt><dd><span title="0.8466485992113698923537604829148401">$<!-- -->0.85</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk MarketWidget_featured__7NUg7"><span class="MarketWidget_featuredBadge__1yR-t">Featured</span><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Kanye West’s album DONDA be released by midnight ET, August 13, 2021?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->24,329</dd></li><li><dt>Yes</dt><dd><span title="0.1500247706116393150362778025267552">$<!-- -->0.15</span></dd></li><li><dt>No</dt><dd><span title="0.8499752293883606849637221974732448">$<!-- -->0.85</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Donald Trump be President of the USA on September 30, 2021?</header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->654,314</dd></li><li><dt>Yes</dt><dd><span title="0.0218756488084393289304077493316527">$<!-- -->0.02</span></dd></li><li><dt>No</dt><dd><span title="0.9781243511915606710695922506683473">$<!-- -->0.98</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Joe Biden be President of the USA on September 30, 2021?</header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->553,427</dd></li><li><dt>Yes</dt><dd><span title="0.969932750614928388630502488420994">$<!-- -->0.97</span></dd></li><li><dt>No</dt><dd><span title="0.03006724938507161136949751157900604">$<!-- -->0.03</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Kanye West’s DONDA sell more than 250K album units in its first week?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->117,274</dd></li><li><dt>Yes</dt><dd><span title="0.1429255022811658364662593630910152">$<!-- -->0.14</span></dd></li><li><dt>No</dt><dd><span title="0.8570744977188341635337406369089848">$<!-- -->0.86</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will the US have fewer than 1000 COVID-19 cases on any day on or before September 1?</header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->107,083</dd></li><li><dt>Yes</dt><dd><span title="0.01087838105158214469562654189908864">$<!-- -->0.01</span></dd></li><li><dt>No</dt><dd><span title="0.9891216189484178553043734581009114">$<!-- -->0.99</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Nancy Pelosi, Hillary Clinton, Bill Clinton, or Hunter Biden be charged with a federal crime by October 1?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->66,962</dd></li><li><dt>Yes</dt><dd><span title="0.02304193907122475142353673858541078">$<!-- -->0.02</span></dd></li><li><dt>No</dt><dd><span title="0.9769580609287752485764632614145892">$<!-- -->0.98</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Britney Spears' father be removed or resign from her conservatorship by October 1, 2021?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->61,883</dd></li><li><dt>Yes</dt><dd><span title="0.2707905740306983553581302629189214">$<!-- -->0.27</span></dd></li><li><dt>No</dt><dd><span title="0.7292094259693016446418697370810786">$<!-- -->0.73</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will any of the COVID vaccines be granted full FDA approval by September 1?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->55,824</dd></li><li><dt>Yes</dt><dd><span title="0.251417725820305798501100063112299">$<!-- -->0.25</span></dd></li><li><dt>No</dt><dd><span title="0.748582274179694201498899936887701">$<!-- -->0.75</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will Donald Trump be the 2024 Republican presidential nominee?<span class="MarketWidget_labelNew__RFUP5">New</span></header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->52,936</dd></li><li><dt>Yes</dt><dd><span title="0.3848292939388255911446578653327137">$<!-- -->0.38</span></dd></li><li><dt>No</dt><dd><span title="0.6151707060611744088553421346672863">$<!-- -->0.62</span></dd></li></ul></aside></li></a><a class="MarketWidget_market__2BNzk "><li><header><span class="MuiSkeleton-root MuiSkeleton-circle MarketImage_image__1T5fj MuiSkeleton-withChildren MuiSkeleton-pulse" style="width:40px;height:40px"><div class="MuiAvatar-root MuiAvatar-circle MarketImage_image__1T5fj"><img alt="Market icon" src="logo.png" class="MuiAvatar-img"></div></span>Will LeVar Burton be announced as the next permanent host of Jeopardy by August 15?</header><aside><ul><li><dt>Volume</dt><dd class="MarketWidget_volume__oOHww">$<!-- -->47,551</dd></li><li><dt>Yes</dt><dd><span title="0.0006846138066185149985912351992132062">$<!-- -->0.00</span></dd></li><li><dt>No</dt><dd><span title="0.9993153861933814850014087648007868">$<!-- -->1.00</span></dd></li></ul></aside></li></a><footer class="Footer_footer__a95ok"><div class="Footer_container__1ibg5"><div class="Footer_left__39WTs"><div class="Footer_links__1vQfo"><a class="Footer_link__eKlwz">Contact</a><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">Privacy Policy</a><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">Terms of Service</a></div><div class="Footer_links__1vQfo"><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">How it Works</a><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">FAQ</a><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">Blog</a></div><div><div class="BuiltOnEthereum_main__3g409"><div class="BuiltOnEthereum_center__1H64A"><span class="BuiltOnEthereum_text__3nqI7">Built on</span><div class="BuiltOnEthereum_icons__X5Kte"><div class="BuiltOnEthereum_icon__2u9D_"><img src="/web/20210811204211im_/https://polymarket.com/static/images/builton/ethereum.png" alt="Ethereum"><span>Ethereum</span></div></div></div></div></div><h6 class="Footer_socialContainer__3MQYL">Blockratize Inc © 2021<a href="https://web.archive.org/web/20210811204211/https://t.me/joinchat/Fw23LxksoJ1tmDefbyb_-g" target="_blank" rel="noopener noreferrer" class="Footer_social__2VarA"></a><a href="https://web.archive.org/web/20210811204211/https://discord.gg/hGYPGru" target="_blank" rel="noopener noreferrer" class="Footer_social__2VarA"> </a><a href="https://web.archive.org/web/20210811204211/https://medium.com/@polymarket" target="_blank" rel="noopener noreferrer" class="Footer_social__2VarA"></a><a href="https://web.archive.org/web/20210811204211/https://twitter.com/PolymarketHQ" target="_blank" rel="noopener noreferrer" class="Footer_social__2VarA"></a></h6></div><div class="Footer_right__kVhRc"><div><h3>Disclaimer</h3><p>CrystalBet is for informational and educational purposes only. We take no custody of anyone's money or cryptocurrency, extract no profits, nor do we host any markets ourselves. CrystalBet displays existing markets live on the Ethereum blockchain (or sidechains) and is a graphical user interface for both visualizing data and market trends from on-chain activity, and interacting with said smart contracts directly via your Web 3 enabled wallet.</p></div></div></div></footer></ul></div></main></main></div>
 
 
-<footer class="Footer_footer__a95ok" style="width: 100%;"><div class="Footer_container__1ibg5"><div class="Footer_left__39WTs"><div class="Footer_links__1vQfo"><a class="Footer_link__eKlwz">Contact</a><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">Privacy Policy</a><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">Terms of Service</a></div><div class="Footer_links__1vQfo"><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">How it Works</a><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">FAQ</a><a class="Footer_link__eKlwz" target="_blank" rel="noopener noreferrer">Blog</a></div><div><div class="BuiltOnEthereum_main__3g409"><div class="BuiltOnEthereum_center__1H64A"><span class="BuiltOnEthereum_text__3nqI7" style="background-color: white;color: black;">Built on</span><div class="BuiltOnEthereum_icons__X5Kte"><div class="BuiltOnEthereum_icon__2u9D_" style="width: ;"><img src="/web/20210811204211im_/https://polymarket.com/static/images/builton/ethereum.png" alt="Ethereum" style="width: 200%;"><span style="background-color: 4b7af3;color: white;">Ethereum</span></div></div></div></div></div><h6 class="Footer_socialContainer__3MQYL">Blockratize Inc © 2021<a href="https://web.archive.org/web/20210811204211/https://t.me/joinchat/Fw23LxksoJ1tmDefbyb_-g" target="_blank" rel="noopener noreferrer" class="Footer_social__2VarA"></a><a href="https://web.archive.org/web/20210811204211/https://discord.gg/hGYPGru" target="_blank" rel="noopener noreferrer" class="Footer_social__2VarA"> </a><a href="https://web.archive.org/web/20210811204211/https://medium.com/@polymarket" target="_blank" rel="noopener noreferrer" class="Footer_social__2VarA"></a><a href="https://web.archive.org/web/20210811204211/https://twitter.com/PolymarketHQ" target="_blank" rel="noopener noreferrer" class="Footer_social__2VarA"></a></h6></div><div class="Footer_right__kVhRc"><div><h3>Disclaimer</h3><p>CrystalBet is for informational and educational purposes only. We take no custody of anyone's money or cryptocurrency, extract no profits, nor do we host any markets ourselves. CrystalBet displays existing markets live on the Ethereum blockchain (or sidechains) and is a graphical user interface for both visualizing data and market trends from on-chain activity, and interacting with said smart contracts directly via your Web 3 enabled wallet.</p></div></div></div></footer>
+
+
 
 
 
