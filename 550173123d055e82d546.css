@@ -42,7 +42,7 @@
  line-height:12px
 }
 .Footer_footer__a95ok {
- background:#fff;
+ background:black;
  margin:0 auto;
  overflow:hidden;
  position:relative;
@@ -128,7 +128,7 @@
  margin-left:14.4px
 }
 .Footer_link__eKlwz {
- color:#000
+ color:white;
 }
 .PolyModal_modal__2H7nF {
  text-align:center;
@@ -683,7 +683,8 @@
 .Header_header__3V_Bw {
  background-color:#fff;
  border-bottom:1px solid #eee;
- margin:0 auto
+ margin:0 auto;
+ background-color: black;
 }
 .Header_header__3V_Bw .Header_content__1M_qK {
  -moz-box-align:center;
@@ -694,7 +695,8 @@
  -moz-box-pack:justify;
  justify-content:space-between;
  margin:0 auto;
- max-width:998px
+ max-width:998px;
+ background-color: black;
 }
 @media screen and (max-width:1017px) {
  .Header_header__3V_Bw .Header_content__1M_qK {
