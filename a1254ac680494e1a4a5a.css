@@ -1,11 +1,12 @@
 * {
  -webkit-box-sizing:border-box;
  -moz-box-sizing:border-box;
- box-sizing:border-box
+ box-sizing:border-box;
+ color: white;
 }
 body {
  font-family:Heebo,sans-serif!important;
- margin:0
+ margin:0;
 }
 a {
  background-color:transparent;
@@ -20,7 +21,8 @@ h1 {
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html {
  letter-spacing:-.0133803125rem;
  line-height:1.357;
- -webkit-text-size-adjust:100%
+ -webkit-text-size-adjust:100%;
+ background-color: black;
 }
 main {
  display:block
