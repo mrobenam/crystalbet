@@ -52,8 +52,12 @@ form {
     padding: 2px 5px;
     color: #666;
   }
-  input[type="submit"] {
-    background: $button;
+  a[id="submit"] {
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin:0;
+    background-color:gray;
     box-shadow: 0 3px 0 0 darken($button, 10%);
     border-radius: 2px;
     border: none;
@@ -67,7 +71,7 @@ form {
     padding: .8em 0;
     text-shadow: 0 1px #68B25B;
   }
-  input[type="submit"]:hover {
+  a[id="submit"]:hover {
     background: blue;
     text-shadow:0 1px 3px darken($button, 30%);
   }
