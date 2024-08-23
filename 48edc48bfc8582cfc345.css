@@ -425,7 +425,8 @@
  margin:.5rem 0 0;
  padding:3.34px 7.81px 3.1px 5.58px;
  width:-moz-fit-content;
- width:fit-content
+ width:fit-content;
+ border-radius: 8px;
 }
 .MarketWidget_market__2BNzk>li aside ul li dd.MarketWidget_volume__oOHww {
  font-size:1rem;
